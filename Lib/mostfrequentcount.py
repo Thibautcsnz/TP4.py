@@ -7,8 +7,7 @@ snbr=0
 
 for i in range(len(L1)):
     nbr = L1[i]
-    for j in range(len(L1)):
-        cnbr = L1.count(L1[i])
+    cnbr = L1.count(L1[i])
 
     if oldcnbr < cnbr:
         snbr = nbr
