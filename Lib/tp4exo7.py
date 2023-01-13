@@ -1,6 +1,6 @@
 binome = ("thibaut", "yann")
 
-print(f"Notre binome est composées de {binome[0]} et {binome[1]}")
+print(f"L'étudiant {binome[0]} est en binome avec {binome[1]}")
 
 #####################################
 bi=list(binome)
@@ -15,7 +15,7 @@ print(binome)
 ####################################
 binome = ("yann", "Thibaut")
 bi = list(binome)
-bi.append(input("Entre le prénom de la troisième personne :"))
+bi.append(input("Entrez le prénom de la troisième personne :"))
 binome = tuple(bi)
 print(binome)
 
